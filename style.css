@@ -1,0 +1,24 @@
+body {
+  font-family: "Pacifico";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+.logo-container {
+  flex: 1;
+}
+nav {
+  flex: 2;
+}
+.cart {
+  flex: 1;
+}
